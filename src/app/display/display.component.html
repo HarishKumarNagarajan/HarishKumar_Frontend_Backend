@@ -1,0 +1,26 @@
+
+<div class="container">
+    <p>Chart Rendering</p>
+    <div>
+        <button (click)="previous()">Previous readings</button>
+    </div>
+    <div class="FormControl">
+      <div>
+        <label>Fall Height:</label>
+        <input class="input-group" type="number" [(ngModel)]="height" placeholder="Type heighy in meter"/>
+      </div>
+      <div>
+        <label>Coefficient of restitution:</label>
+        <input class="input-group" type="range" min="0" max="0.99" step='.01' [(ngModel)]="range" />{{range}}
+      </div>
+      <div>
+          <button (click)="check()">Show it up</button>
+      </div>
+      <div>
+        <p>Total number of bounce:{{totalbounce}}</p>
+        <p>Total number of distance ball travelled:{{distance}}</p>
+      </div>
+    </div>
+    <div id="chartContainer" style="height: 100%; width: 100%; "></div>
+  </div>
+ 
