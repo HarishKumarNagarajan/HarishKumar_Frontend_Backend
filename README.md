@@ -1,6 +1,10 @@
-# Demo
+# Front-End Demo
 
-This project Demo Link - > [BounceChart](https://edunomicstask.web.app) developed using Angualar and developed by Harish Kumar C N for Edunomics Task
+This project Demo Link - > [BounceChart](https://edunomicstask.web.app) developed using Angualar and developed by Harish Kumar C N for Edunomics Task.
+
+# NodeJs Repo Link and Demo
+
+Back-End repo link is [this](https://github.com/HarishKumarNagarajan/EdunomicsTaskNodejs) API Demo Link -> [API](https://edunomicstask.herokuapp.com/)
 
 # Angular
 
